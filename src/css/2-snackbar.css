@@ -1,0 +1,88 @@
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label, legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  input[type="number"] {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+  }
+  
+  input[type="number"]:hover {
+    border: 1px solid #000;
+  }
+
+  input[type = "number"]:focus {
+    border: 1px solid #4e75ff;
+  }
+
+  fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    width: 340px;
+    /* height: 78px; */
+    gap: 48px;
+  }
+  
+  fieldset label {
+    flex-direction: row;
+
+  }
+  
+  fieldset input[type="radio"] {
+    margin-right: 10px;
+    display: flex;
+  }
+
+  input[type="radio"]:hover {
+    border: 1px solid #000;
+  }
+  
+  fieldset label {
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .form button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4e75ff;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+  .form button:hover {
+    background: #6c8cff;
+  }
